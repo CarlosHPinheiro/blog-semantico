@@ -97,7 +97,7 @@ a:hover {
 #tags h4 {
     margin-bottom: 1.5rem;
     font-size: 1.6rem;
-} 
+}
 
 #search-bar form {
     display: flex;
@@ -108,14 +108,14 @@ a:hover {
     border: 1px solid #ddd;
 }
 
-#search-bar input[type="submit"]{
+#search-bar input[type="submit"] {
     cursor: pointer;
     background-color: #37a1f7;
     color: #fff;
     border: none;
 }
 
-#categories li{
+#categories li {
     margin-bottom: 1rem;
 }
 
@@ -141,4 +141,28 @@ a:hover {
 #footer h2,
 #footer p {
     margin-bottom: 1rem;
+}
+
+/* Responsividade */
+
+@media (max-width: 450px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}
+
+/* S-Mobile 330px */
+@media (max-width: 330px) {
+    #navbar-inner {
+        flex-direction: column;
+    }
+
+    #navbar ul {
+        margin-top: 1rem;
+    }
+
+    aside {
+        width: 300px;
+        margin-left: -30px;
+    }
 }
