@@ -1,16 +1,23 @@
-## Blog Semântico
+# Blog Semântico
 
-Desenvolvimento do Front-end de um blog de viagens responsivo utilizando HTML e CSS.
+- Desenvolvimento do Front-end de um blog de viagens responsivo utilizando HTML e CSS.
 
-### Tecnologias Utlizadas
+## Tecnologias Utlizadas
 
 - **HTML** - https://www.w3schools.com/html/
+
 - **CSS** - https://www.w3schools.com/css/
+  
 
-**Desktop**
+### Interface Desktop
 
-![Interface Desktop](img/blog-desktop.gif)
+**Exibição**
 
-**Mobile**
+![Interface Desktop](assets/desktop.gif)
 
-![Interface Mobile](img/blog-mobile.gif)
+
+### Interface Mobile
+
+**Screenshots**
+
+![Interface Mobile](assets/screenshots.png)
